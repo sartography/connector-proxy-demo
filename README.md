@@ -34,5 +34,5 @@ Fire it up.
 #> flask run
 ```
 
-Any dependencies you add will now be available for SpiffWorkflow to call using a Service Task.  What's more, those services are now discoverable!  So when someone drops a Service Task into their diagram, they will have a dropdown list of all the services you have made available to them.  And those services will know what paramters are required, and can prompt diagram authors to provide information necissary to make the call.  Which can be no parmaeters at all (Just give me a fact about Chuck Norris) .. to complex parameters (a json structure to be added to a DynamoDB Table).
+Any dependencies you add will now be available for SpiffWorkflow to call using a Service Task.  What's more, those services are now discoverable!  So when someone drops a Service Task into their diagram, they will have a dropdown list of all the services you have made available to them.  And those services will know what parameters are required, and can prompt diagram authors to provide information necessary to make the call.  Which can be no parameters at all (Just give me a fact about Chuck Norris) ... to complex parameters (a json structure to be added to a DynamoDB Table).
 

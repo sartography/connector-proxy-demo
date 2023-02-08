@@ -8,11 +8,11 @@ readme = "README.md"
 packages = [{include = "connector_proxy_demo", from = "src"}]
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.11"
 Flask = "^2.2.2"
 spiffworkflow-proxy = {git = "https://github.com/sartography/spiffworkflow-proxy"}
 connector-aws = { git = "https://github.com/sartography/connector-aws.git"}
-
+connector-http = {git = "https://github.com/sartography/connector-http.git"}
 
 [build-system]
 requires = ["poetry-core"]
@@ -20,5 +20,5 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.pytest.ini_options]
 pythonpath = [
-  ".", "src",
+  "."
 ]
