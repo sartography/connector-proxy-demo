@@ -172,11 +172,13 @@ category = "main"
 optional = false
 python-versions = "^3.9"
 files = []
-develop = true
+develop = false
 
 [package.source]
-type = "directory"
-url = "../connector-smtp"
+type = "git"
+url = "https://github.com/sartography/connector-smtp.git"
+reference = "HEAD"
+resolved_reference = "680a8f408d95fa3d64bb20c205437a98002e2f17"
 
 [[package]]
 name = "Flask"
@@ -593,4 +595,4 @@ watchdog = ["watchdog"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "dbd2672acf83623e5d0344aeeb839b99056b256d0768280f29624383777df649"
+content-hash = "6f96f7239cd02d2790664a47c0d7085a7a634825d7876b32331d2d8c5d1c5994"
